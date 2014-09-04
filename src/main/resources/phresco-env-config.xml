@@ -19,9 +19,9 @@
             <port>3306</port>
             <password/>
             <type>MYSQL</type>
-            <host>172.16.27.126</host>
+            <host>172.16.29.213</host>
             <driver>com.mysql.jdbc.Driver</driver>
-            <dbname>sampletest</dbname>
+            <dbname>eshop_db</dbname>
             <username>root</username>
         </Database>
     </environment>

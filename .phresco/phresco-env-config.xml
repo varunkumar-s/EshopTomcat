@@ -5,8 +5,8 @@
             <port>3306</port>
             <password/>
             <type>MYSQL</type>
-            <host>172.16.27.126</host>
-            <dbname>sampletest</dbname>
+            <host>172.16.29.213</host>
+            <dbname>eshop_db</dbname>
             <username>root</username>
         </Database>
         <Server desc="Server Configuration for Javawebservice Eshop application" name="Server Configuration">
