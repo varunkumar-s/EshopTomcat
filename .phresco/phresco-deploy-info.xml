@@ -44,7 +44,7 @@
                     <editable>true</editable>
                     <key>environmentName</key>
                     <multiple>false</multiple>
-                    <value></value>
+                    <value>Production</value>
                     <sort>false</sort>
                     <show>true</show>
                     <dependency>dataBase,fetchSql</dependency>
@@ -117,7 +117,7 @@
                     <description></description>
                     <key>dataBase</key>
                     <multiple>false</multiple>
-                    <value></value>
+                    <value>mysql</value>
                     <sort>false</sort>
                     <show>false</show>
                     <dependency>fetchSql</dependency>

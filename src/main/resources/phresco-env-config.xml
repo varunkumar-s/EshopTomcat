@@ -3,11 +3,12 @@
         <Server name="Server Configuration">
             <context>javawebserviceeshop</context>
             <admin_username/>
-            <deploy_dir>D:/softwares/apache-tomcat-7.0.37-windows-x86/apache-tomcat-7.0.37/webapps/</deploy_dir>
+            <deploy_dir>D:\apache-tomcat-7.0.52\webapps</deploy_dir>
             <additional_context/>
-            <port>2020</port>
+            <port>7777</port>
             <admin_password/>
             <version>7.0.x</version>
+            <certificate/>
             <type>Apache Tomcat</type>
             <remoteDeployment>false</remoteDeployment>
             <host>localhost</host>
@@ -18,9 +19,9 @@
             <port>3306</port>
             <password/>
             <type>MYSQL</type>
-            <host>localhost</host>
+            <host>172.16.27.126</host>
             <driver>com.mysql.jdbc.Driver</driver>
-            <dbname>jwsdb</dbname>
+            <dbname>sampletest</dbname>
             <username>root</username>
         </Database>
     </environment>

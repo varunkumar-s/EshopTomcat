@@ -47,11 +47,11 @@
                         <value key="java">Java</value>
                     </possibleValues>
                     <multiple>false</multiple>
-                    <value></value>
+                    <value>java</value>
                     <sort>false</sort>
                     <show>true</show>
                 </parameter>
-				 <parameter>
+                <parameter>
                     <pluginParameter>framework</pluginParameter>
                     <mavenCommands>
                         <mavenCommand>
@@ -80,9 +80,9 @@
                         <value key="showDebug">Show Debug</value>
                     </possibleValues>
                     <multiple>false</multiple>
-					<sort>false</sort>
-					<show>true</show>
-                    <value></value>
+                    <value>showErrors</value>
+                    <sort>false</sort>
+                    <show>true</show>
                 </parameter>
             </parameters>
         </configuration>
