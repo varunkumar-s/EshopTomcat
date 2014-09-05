@@ -3,10 +3,10 @@
         <Database desc="Database Configuration for Javawebservice Eshop application" name="Database Configuration">
             <version>5.5.1</version>
             <port>3306</port>
-            <password/>
+            <password>root</password>
             <type>MYSQL</type>
-            <host>172.16.29.213</host>
-            <dbname>eshop_db</dbname>
+            <host>172.16.27.126</host>
+            <dbname>sampletest</dbname>
             <username>root</username>
         </Database>
         <Server desc="Server Configuration for Javawebservice Eshop application" name="Server Configuration">
