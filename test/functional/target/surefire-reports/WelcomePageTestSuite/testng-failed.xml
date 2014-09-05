@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="0" name="Failed suite [WelcomePageTestSuite]" parallel="tests">
+  <parameter name="platform" value="WINDOWS"/>
+  <parameter name="browser" value="htmlunit"/>
+  <test name="VerifyWelcomePageOnChrome(failed)" parallel="tests" preserve-order="true">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="browser" value="googlechrome"/>
+    <classes>
+      <class name="com.photon.phresco.testcases.JavaWebServiceTest">
+        <methods>
+          <include name="testNavigationCategories2"/>
+          <include name="testNavigationSpecialproducts"/>
+          <include name="testNavigationCategories3"/>
+          <include name="testNavigationNewproducts"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testNavigationCategories"/>
+          <include name="testNavigationWelcomepage"/>
+          <include name="testRestApiCategories"/>
+          <include name="testNavigationProducts"/>
+          <include name="testNavigationSearchComputer"/>
+          <include name="testNavigationSearchMobile"/>
+          <include name="testNavigationCategories1"/>
+        </methods>
+      </class> <!-- com.photon.phresco.testcases.JavaWebServiceTest -->
+    </classes>
+  </test> <!-- VerifyWelcomePageOnChrome(failed) -->
+  <test name="VerifyWelcomePageOnHTMLUnit(failed)" parallel="tests" preserve-order="true">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="browser" value="htmlunit"/>
+    <classes>
+      <class name="com.photon.phresco.testcases.JavaWebServiceTest">
+        <methods>
+          <include name="testNavigationCategories2"/>
+          <include name="testNavigationSpecialproducts"/>
+          <include name="testNavigationCategories3"/>
+          <include name="testNavigationNewproducts"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testNavigationCategories"/>
+          <include name="testNavigationWelcomepage"/>
+          <include name="testRestApiCategories"/>
+          <include name="testNavigationProducts"/>
+          <include name="testNavigationSearchComputer"/>
+          <include name="testNavigationSearchMobile"/>
+          <include name="testNavigationCategories1"/>
+        </methods>
+      </class> <!-- com.photon.phresco.testcases.JavaWebServiceTest -->
+    </classes>
+  </test> <!-- VerifyWelcomePageOnHTMLUnit(failed) -->
+  <test name="VerifyWelcomePageOnfirefox(failed)" parallel="tests" preserve-order="true">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.photon.phresco.testcases.JavaWebServiceTest">
+        <methods>
+          <include name="testNavigationCategories2"/>
+          <include name="testNavigationSpecialproducts"/>
+          <include name="testNavigationCategories3"/>
+          <include name="testNavigationNewproducts"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testNavigationCategories"/>
+          <include name="testNavigationWelcomepage"/>
+          <include name="testRestApiCategories"/>
+          <include name="testNavigationProducts"/>
+          <include name="testNavigationSearchComputer"/>
+          <include name="testNavigationSearchMobile"/>
+          <include name="testNavigationCategories1"/>
+        </methods>
+      </class> <!-- com.photon.phresco.testcases.JavaWebServiceTest -->
+    </classes>
+  </test> <!-- VerifyWelcomePageOnfirefox(failed) -->
+</suite> <!-- Failed suite [WelcomePageTestSuite] -->

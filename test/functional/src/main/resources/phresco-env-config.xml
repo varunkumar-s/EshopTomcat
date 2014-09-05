@@ -16,8 +16,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 
--->
-<environment>
+--><environment>
 <!-- <Browser>firefox</Browser> -->
 <Browser/>
     
@@ -28,18 +27,20 @@
 
 
 
-<Server desc="" name="server">
-        <context>eshop</context>
+
+
+<Server desc="Server Configuration for Javawebservice Eshop application" name="Server Configuration">
+        <context>javawebserviceeshop</context>
         <admin_username/>
-        <deploy_dir>c</deploy_dir>
+        <deploy_dir>D:\apache-tomcat-7.0.52\webapps</deploy_dir>
         <additional_context/>
-        <port>2020</port>
+        <port>7777</port>
         <admin_password/>
         <version>7.0.x</version>
         <certificate/>
         <type>Apache Tomcat</type>
         <remoteDeployment>false</remoteDeployment>
-        <host>172.16.17.180</host>
+        <host>localhost</host>
         <protocol>http</protocol>
     </Server>
 </environment>

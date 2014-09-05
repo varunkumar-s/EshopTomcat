@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG new reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-WelcomePageTestSuite">
+              <span class="suite-name border-skipped">WelcomePageTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-WelcomePageTestSuite">
+                    <span>C:\Users\varunkumar_s\workspace\projects\EshopTomcat\test\functional\src\test\java\com\photon\phresco\testsuites\JavaWebserviceTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-WelcomePageTestSuite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-WelcomePageTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-WelcomePageTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-WelcomePageTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-WelcomePageTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-WelcomePageTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,  33 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-WelcomePageTestSuite" class="hide-methods skipped suite-WelcomePageTestSuite"> (hide)</a> <!-- hide-methods skipped suite-WelcomePageTestSuite -->
+                      <a href="#" panel-name="suite-WelcomePageTestSuite" class="show-methods skipped suite-WelcomePageTestSuite"> (show)</a> <!-- show-methods skipped suite-WelcomePageTestSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-WelcomePageTestSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories">testNavigationCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories">testNavigationCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories">testNavigationCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories1">testNavigationCategories1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories1">testNavigationCategories1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories1">testNavigationCategories1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories2">testNavigationCategories2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories2">testNavigationCategories2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories2">testNavigationCategories2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories3">testNavigationCategories3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories3">testNavigationCategories3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationCategories3">testNavigationCategories3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationNewproducts">testNavigationNewproducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationNewproducts">testNavigationNewproducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationNewproducts">testNavigationNewproducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationProducts">testNavigationProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationProducts">testNavigationProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationProducts">testNavigationProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSearchComputer">testNavigationSearchComputer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSearchComputer">testNavigationSearchComputer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSearchComputer">testNavigationSearchComputer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSearchMobile">testNavigationSearchMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSearchMobile">testNavigationSearchMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSearchMobile">testNavigationSearchMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSpecialproducts">testNavigationSpecialproducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSpecialproducts">testNavigationSpecialproducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationSpecialproducts">testNavigationSpecialproducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationWelcomepage">testNavigationWelcomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationWelcomepage">testNavigationWelcomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testNavigationWelcomepage">testNavigationWelcomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testRestApiCategories">testRestApiCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testRestApiCategories">testRestApiCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WelcomePageTestSuite" title="com.photon.phresco.testcases.JavaWebServiceTest" hash-for-method="testRestApiCategories">testRestApiCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-WelcomePageTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WelcomePageTestSuite" class="panel WelcomePageTestSuite">
+          <div class="suite-WelcomePageTestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.photon.phresco.testcases.JavaWebServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories">
+                  </a> <!-- testNavigationCategories -->
+                  <span class="method-name">testNavigationCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories">
+                  </a> <!-- testNavigationCategories -->
+                  <span class="method-name">testNavigationCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories">
+                  </a> <!-- testNavigationCategories -->
+                  <span class="method-name">testNavigationCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories1">
+                  </a> <!-- testNavigationCategories1 -->
+                  <span class="method-name">testNavigationCategories1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories1">
+                  </a> <!-- testNavigationCategories1 -->
+                  <span class="method-name">testNavigationCategories1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories1">
+                  </a> <!-- testNavigationCategories1 -->
+                  <span class="method-name">testNavigationCategories1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories2">
+                  </a> <!-- testNavigationCategories2 -->
+                  <span class="method-name">testNavigationCategories2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories2">
+                  </a> <!-- testNavigationCategories2 -->
+                  <span class="method-name">testNavigationCategories2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories2">
+                  </a> <!-- testNavigationCategories2 -->
+                  <span class="method-name">testNavigationCategories2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories3">
+                  </a> <!-- testNavigationCategories3 -->
+                  <span class="method-name">testNavigationCategories3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories3">
+                  </a> <!-- testNavigationCategories3 -->
+                  <span class="method-name">testNavigationCategories3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationCategories3">
+                  </a> <!-- testNavigationCategories3 -->
+                  <span class="method-name">testNavigationCategories3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationNewproducts">
+                  </a> <!-- testNavigationNewproducts -->
+                  <span class="method-name">testNavigationNewproducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationNewproducts">
+                  </a> <!-- testNavigationNewproducts -->
+                  <span class="method-name">testNavigationNewproducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationNewproducts">
+                  </a> <!-- testNavigationNewproducts -->
+                  <span class="method-name">testNavigationNewproducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationProducts">
+                  </a> <!-- testNavigationProducts -->
+                  <span class="method-name">testNavigationProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationProducts">
+                  </a> <!-- testNavigationProducts -->
+                  <span class="method-name">testNavigationProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationProducts">
+                  </a> <!-- testNavigationProducts -->
+                  <span class="method-name">testNavigationProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSearchComputer">
+                  </a> <!-- testNavigationSearchComputer -->
+                  <span class="method-name">testNavigationSearchComputer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSearchComputer">
+                  </a> <!-- testNavigationSearchComputer -->
+                  <span class="method-name">testNavigationSearchComputer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSearchComputer">
+                  </a> <!-- testNavigationSearchComputer -->
+                  <span class="method-name">testNavigationSearchComputer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSearchMobile">
+                  </a> <!-- testNavigationSearchMobile -->
+                  <span class="method-name">testNavigationSearchMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSearchMobile">
+                  </a> <!-- testNavigationSearchMobile -->
+                  <span class="method-name">testNavigationSearchMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSearchMobile">
+                  </a> <!-- testNavigationSearchMobile -->
+                  <span class="method-name">testNavigationSearchMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSpecialproducts">
+                  </a> <!-- testNavigationSpecialproducts -->
+                  <span class="method-name">testNavigationSpecialproducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSpecialproducts">
+                  </a> <!-- testNavigationSpecialproducts -->
+                  <span class="method-name">testNavigationSpecialproducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationSpecialproducts">
+                  </a> <!-- testNavigationSpecialproducts -->
+                  <span class="method-name">testNavigationSpecialproducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationWelcomepage">
+                  </a> <!-- testNavigationWelcomepage -->
+                  <span class="method-name">testNavigationWelcomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationWelcomepage">
+                  </a> <!-- testNavigationWelcomepage -->
+                  <span class="method-name">testNavigationWelcomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationWelcomepage">
+                  </a> <!-- testNavigationWelcomepage -->
+                  <span class="method-name">testNavigationWelcomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestApiCategories">
+                  </a> <!-- testRestApiCategories -->
+                  <span class="method-name">testRestApiCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestApiCategories">
+                  </a> <!-- testRestApiCategories -->
+                  <span class="method-name">testRestApiCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestApiCategories">
+                  </a> <!-- testRestApiCategories -->
+                  <span class="method-name">testRestApiCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WelcomePageTestSuite-class-skipped -->
+        </div> <!-- panel WelcomePageTestSuite -->
+        <div panel-name="suite-AllTest" class="panel AllTest">
+        </div> <!-- panel AllTest -->
+        <div panel-name="test-xml-WelcomePageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\varunkumar_s\workspace\projects\EshopTomcat\test\functional\src\test\java\com\photon\phresco\testsuites\JavaWebserviceTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; verbose=&quot;0&quot; name=&quot;WelcomePageTestSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;VerifyWelcomePageOnfirefox&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WINDOWS&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.photon.phresco.testcases.JavaWebServiceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyWelcomePageOnfirefox --&gt;
+  &lt;test name=&quot;VerifyWelcomePageOnChrome&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WINDOWS&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;googlechrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.photon.phresco.testcases.JavaWebServiceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyWelcomePageOnChrome --&gt;
+  &lt;test name=&quot;VerifyWelcomePageOnHTMLUnit&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WINDOWS&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;htmlunit&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.photon.phresco.testcases.JavaWebServiceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyWelcomePageOnHTMLUnit --&gt;
+&lt;/suite&gt; &lt;!-- WelcomePageTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-AllTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\varunkumar_s\workspace\projects\EshopTomcat\test\functional\src\test\java\com\photon\phresco\testsuites\AllTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; verbose=&quot;0&quot; name=&quot;AllTest&quot; parallel=&quot;tests&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./JavaWebserviceTestSuite.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- AllTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WelcomePageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WelcomePageTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">VerifyWelcomePageOnfirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifyWelcomePageOnChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifyWelcomePageOnHTMLUnit (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AllTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AllTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WelcomePageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WelcomePageTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AllTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AllTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WelcomePageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WelcomePageTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WelcomePageTestSuite');
+function tableData_WelcomePageTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testNavigationCategories')
+data.setCell(0, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNavigationSpecialproducts')
+data.setCell(1, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testNavigationNewproducts')
+data.setCell(2, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testNavigationCategories')
+data.setCell(3, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testNavigationSpecialproducts')
+data.setCell(4, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testNavigationWelcomepage')
+data.setCell(5, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testNavigationSearchMobile')
+data.setCell(6, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testNavigationCategories1')
+data.setCell(7, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testRestApiCategories')
+data.setCell(8, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testNavigationCategories2')
+data.setCell(9, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testNavigationSearchComputer')
+data.setCell(10, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testNavigationNewproducts')
+data.setCell(11, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testNavigationCategories3')
+data.setCell(12, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testNavigationProducts')
+data.setCell(13, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testNavigationCategories1')
+data.setCell(14, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testNavigationProducts')
+data.setCell(15, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testNavigationCategories3')
+data.setCell(16, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testNavigationSearchComputer')
+data.setCell(17, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testNavigationSpecialproducts')
+data.setCell(18, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testNavigationCategories2')
+data.setCell(19, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testRestApiCategories')
+data.setCell(20, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testNavigationSearchMobile')
+data.setCell(21, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testNavigationWelcomepage')
+data.setCell(22, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testRestApiCategories')
+data.setCell(23, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testNavigationCategories3')
+data.setCell(24, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testNavigationCategories2')
+data.setCell(25, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testNavigationWelcomepage')
+data.setCell(26, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testNavigationSearchComputer')
+data.setCell(27, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testNavigationProducts')
+data.setCell(28, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testNavigationCategories1')
+data.setCell(29, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testNavigationSearchMobile')
+data.setCell(30, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testNavigationNewproducts')
+data.setCell(31, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testNavigationCategories')
+data.setCell(32, 2, 'com.photon.phresco.testcases.JavaWebServiceTest')
+data.setCell(32, 3, 0);
+window.suiteTableData['WelcomePageTestSuite']= { tableData: data, tableDiv: 'times-div-WelcomePageTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 ms</span>
+              <div id="times-div-WelcomePageTestSuite">
+              </div> <!-- times-div-WelcomePageTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AllTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AllTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AllTest');
+function tableData_AllTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['AllTest']= { tableData: data, tableDiv: 'times-div-AllTest'}
+return data;
+}
+              </script>
+              <div id="times-div-AllTest">
+              </div> <!-- times-div-AllTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WelcomePageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WelcomePageTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AllTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AllTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WelcomePageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AllTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WelcomePageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.photon.phresco.testcases.JavaWebServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(htmlunit, WINDOWS)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(googlechrome, WINDOWS)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(firefox, WINDOWS)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories1</span>
+                <span class="method-start">447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories2</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories1</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories2</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories3</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationNewproducts</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories3</span>
+                <span class="method-start">449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationProducts</span>
+                <span class="method-start">449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchComputer</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationNewproducts</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchMobile</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSpecialproducts</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationWelcomepage</span>
+                <span class="method-start">451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRestApiCategories</span>
+                <span class="method-start">451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationProducts</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchComputer</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchMobile</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSpecialproducts</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationWelcomepage</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRestApiCategories</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories</span>
+                <span class="method-start">14101794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories1</span>
+                <span class="method-start">14101794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories2</span>
+                <span class="method-start">14101794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories3</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationNewproducts</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationProducts</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchComputer</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchMobile</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSpecialproducts</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationWelcomepage</span>
+                <span class="method-start">14101796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRestApiCategories</span>
+                <span class="method-start">14101796 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AllTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.photon.phresco.testcases.JavaWebServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(htmlunit, WINDOWS)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(googlechrome, WINDOWS)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(firefox, WINDOWS)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories1</span>
+                <span class="method-start">447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories2</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories1</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories2</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories3</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationNewproducts</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories3</span>
+                <span class="method-start">449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationProducts</span>
+                <span class="method-start">449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchComputer</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationNewproducts</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchMobile</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSpecialproducts</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationWelcomepage</span>
+                <span class="method-start">451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRestApiCategories</span>
+                <span class="method-start">451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationProducts</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchComputer</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchMobile</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSpecialproducts</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationWelcomepage</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRestApiCategories</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories</span>
+                <span class="method-start">14101794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories1</span>
+                <span class="method-start">14101794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories2</span>
+                <span class="method-start">14101794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationCategories3</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationNewproducts</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationProducts</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchComputer</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSearchMobile</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationSpecialproducts</span>
+                <span class="method-start">14101795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationWelcomepage</span>
+                <span class="method-start">14101796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRestApiCategories</span>
+                <span class="method-start">14101796 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
